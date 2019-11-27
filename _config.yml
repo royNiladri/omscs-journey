@@ -29,7 +29,7 @@ github_username:  royNiladri
 # Build settings
 theme: jekyll-theme-cayman
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
   - jemoji
 
 # Exclude from processing.
