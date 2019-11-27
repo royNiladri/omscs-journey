@@ -6,10 +6,10 @@ layout: home
 title: My OMSCS Journey
 description: >- # this means to ignore newlines until "baseurl:"
   Come join me in my journey of persuing Masters of Science in 
-  Computer Science from Georgia Institute of Technology. blah
+  Computer Science from Georgia Institute of Technology.
 ---
 # Course List
-Here I'll list the courses that I take for a particular term. Visit each term to see the details.
+Here I'll list the courses that I take for a particular term. Visit each term to see the details. More details coming soon.
 
 Term | Courses
 ---|---
@@ -22,7 +22,3 @@ Term | Courses
 [2022 Spring](2022/spring)| TBD
 [2022 Summer](2022/summer)| TBD
 [2022 Fall](2022/fall)| TBD
-
-# Progress Meter
-
-**:house_with_garden: :man: ================================================== :books:**
