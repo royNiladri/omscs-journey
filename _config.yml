@@ -23,6 +23,7 @@ email: nilroy@example.com
 description: ""
 baseurl: "/omscs-journey" # the subpath of your site, e.g. /blog
 url: "https://royniladri.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: UA-153486671-1
 # twitter_username: jekyllrb
 github_username:  royNiladri
 
