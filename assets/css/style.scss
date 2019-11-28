@@ -1,22 +1,91 @@
 ---
 ---
 
-@import 'jekyll-theme-cayman';
+@import "jekyll-theme-cayman";
 
-.page-header.term{
-    padding: 1rem 6rem;
-    .project-name{
-        text-transform: uppercase;;
-    }
+.page-header.term {
+  padding: 1rem 6rem;
+  .project-name {
+    text-transform: uppercase;
+  }
 }
 
-.site-footer{
-    margin: 0;
-    padding: 2rem;
+.progressbar {
+  margin: 10px;
+  display: flex;
+
+  span {
+    width: 10%;
+    float: left;
+    font-size: 12px;
+    position: relative;
     text-align: center;
-    background-color: #159957;
-    background-image: linear-gradient(120deg, #155799, #159957);
-    *{
-        color: #fff !important;
+    text-transform: uppercase;
+    color: #7d7d7d;
+    transform-style: preserve-3d;
+
+    &:before {
+      width: 16px;
+      height: 16px;
+      content: "";
+      line-height: 20px;
+      border: 4px solid #7d7d7d;
+      display: block;
+      text-align: center;
+      margin: 0 auto 10px auto;
+      border-radius: 50%;
+      background-color: white;
     }
+
+    &:after {
+      width: 90%;
+      height: 4px;
+      content: "";
+      position: absolute;
+      background-color: transparent;
+      @media screen and (min-width: 768px) {
+        background-color: #7d7d7d;
+      }
+      top: 10px;
+      left: -41%;
+      transform: translateZ(-1px);
+    }
+
+    &:first-child:after {
+      content: none;
+    }
+
+    &:first-child:not(.active):before {
+      background-color: yellow;
+    }
+
+    &.active {
+      color: green;
+      &:before {
+        border-color: #55b776;
+        background-color: green;
+      }
+      & + span:not(.active):before {
+        background-color: yellow;
+      }
+      &:after,
+      & + span:not(.active):after {
+        background-color: transparent;
+        @media screen and (min-width: 768px) {
+          background-color: #55b776;
+        }
+      }
+    }
+  }
+}
+
+.site-footer {
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957);
+  * {
+    color: #fff !important;
+  }
 }

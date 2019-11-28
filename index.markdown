@@ -9,7 +9,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Computer Science from Georgia Institute of Technology.
 ---
 # Course List
-Here I'll list the courses that I take for a particular term. Visit each term to see the details. More details coming soon.
+Here I'll list the courses that I take for a particular term. Visit each term to see the details. More details coming soon. 
 
 Term | Courses
 ---|---
