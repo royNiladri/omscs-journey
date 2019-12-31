@@ -1,0 +1,71 @@
+[
+    {
+        "year": "2020",
+        "season": "Spring",
+        "url": "spring-2020",
+        "papers": [
+            {
+                "id": "CS-6200",
+                "title": "Intro to Operating Systems",
+                "grade": ""
+            }
+        ],
+        "progress": "Not Started"
+    },
+    {
+        "year": "2020",
+        "season": "Summer",
+        "url": "summer-2020",
+        "papers": [],
+        "progress": "Future"
+    },
+    {
+        "year": "2020",
+        "season": "Fall",
+        "url": "fall-2020",
+        "papers": [],
+        "progress": "Future"
+    },
+    {
+        "year": "2021",
+        "season": "Spring",
+        "url": "spring-2021",
+        "papers": [],
+        "progress": "Future"
+    },
+    {
+        "year": "2021",
+        "season": "Summer",
+        "url": "summer-2021",
+        "papers": [],
+        "progress": "Future"
+    },
+    {
+        "year": "2021",
+        "season": "Fall",
+        "url": "fall-2021",
+        "papers": [],
+        "progress": "Future"
+    },
+    {
+        "year": "2022",
+        "season": "Spring",
+        "url": "spring-2022",
+        "papers": [],
+        "progress": "Future"
+    },
+    {
+        "year": "2022",
+        "season": "Summer",
+        "url": "summer-2022",
+        "papers": [],
+        "progress": "Future"
+    },
+    {
+        "year": "2022",
+        "season": "Fall",
+        "url": "fall-2022",
+        "papers": [],
+        "progress": "Future"
+    }
+]

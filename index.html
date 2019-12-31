@@ -1,0 +1,50 @@
+---
+title: OMSCS Journey
+description: Come join me in my journey of persuing Masters of Science in Computer Science from Georgia Institute of Technology.
+layout: home
+---
+<h1>Introduction</h1>
+January 2020, I'm going to start my rollercoaster journey of persuing Masters of Science in Computer Science from the
+renound Georgia Institute of Technology. Join me on this to find out where this takes us. Below you'll find the
+courses that I take and my reviews and tips for the same. In the next section, "Blogs", I will document checkpoints
+along the journey and will most likely be related to any course or term.
+
+<div class="two-sided">
+    <div class="course-list">
+        <h1>Course List</h1>
+        Here I'll list the courses that I take for a particular term. Visit each term to see the details. More details coming
+        soon.
+        
+        <table>
+          <thead>
+            <tr>
+              <th>Term</th>
+              <th>Course(s)</th>
+            </tr>
+          </thead>
+          {% assign terms = site.data.terms | where_exp: "term", "term.progress != 'Future'" %}
+          {%  for term in terms %}
+          <tr>
+            <td><a href="{{ term.url }}">{{ term.season }} {{term.year}}</a></td>
+            <td>
+              {% for paper in term.papers %}
+              {{ paper.title }} <br>
+              {% endfor %}
+            </td>
+          </tr>
+          {% endfor %}
+        </table>
+    </div>
+    
+    <div class="blog-list">
+        <h1>Blogs</h1>
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <small>{{post.date | date: "%F"}}: </small>
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+    </div>
+</div>

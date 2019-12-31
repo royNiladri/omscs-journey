@@ -3,11 +3,30 @@
 
 @import "jekyll-theme-cayman";
 
-.page-header.term {
+$course-list-width: 60%;
+$blog-list-width: 100%-$course-list-width;
+$two-side-separator: 30px;
+
+.page-header.term,
+.page-header.post {
   padding: 1rem 6rem;
   .project-name {
     text-transform: uppercase;
   }
+
+  .post-name {
+    margin-bottom: 10px;
+  }
+  .post-tagline {
+    margin-top: 0;
+    font-weight: normal;
+    font-style: italic;
+  }
+}
+
+.main-content hr{
+  background-color: #ccc;
+  height: 1px;
 }
 
 .progressbar {
@@ -87,5 +106,33 @@
   background-image: linear-gradient(120deg, #155799, #159957);
   * {
     color: #fff !important;
+  }
+}
+
+.two-sided {
+  display: flex;
+  flex-wrap: wrap;
+}
+.course-list {
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    width: $course-list-width;
+    padding-right: $two-side-separator/2;
+  }
+}
+
+.blog-list {
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    width: $blog-list-width;
+    padding-left: $two-side-separator/2;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+    }
   }
 }
