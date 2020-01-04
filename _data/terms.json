@@ -6,7 +6,7 @@
         "papers": [
             {
                 "id": "CS-6200",
-                "title": "Intro to Operating Systems",
+                "title": "Graduate Intro to Operating Systems (GIOS)",
                 "categories": ["Foundational Course", "Computing Systems"],
                 "grade": "TBA"
             }
