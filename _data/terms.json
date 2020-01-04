@@ -7,10 +7,11 @@
             {
                 "id": "CS-6200",
                 "title": "Intro to Operating Systems",
-                "grade": ""
+                "categories": ["Foundational Course", "Computing Systems"],
+                "grade": "TBA"
             }
         ],
-        "progress": "Not Started"
+        "progress": "In Progress"
     },
     {
         "year": "2020",

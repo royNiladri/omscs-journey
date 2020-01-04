@@ -7,7 +7,15 @@ layout: default
         {{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
 </header>
 
-<main id="content" class="main-content" role="main">
+<main id="content" class="main-content term-content" role="main">
     <div><a href="{{ site.baseurl }}/">Home</a> > <span>{{page.title}}</span> </div>
+
+    {% assign term = site.data.terms | where_exp: "term", "page.url contains term.url" | first %}
+    {% for paper in term.papers %}
+        <h2>{{paper.id}}: {{paper.title}}</h2>
+        <div><strong>Catergories:</strong> {{paper.categories|join: ", "}}</div>
+        <div><strong>Grade:</strong> {{paper.grade}}</div>
+    {% endfor %}
+
     {{ content }}
 </main>

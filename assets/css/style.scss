@@ -33,6 +33,15 @@ $two-side-separator: 30px;
   margin: 10px;
   display: flex;
 
+  @keyframes blink {
+    from{
+      background-color: #55b776;
+    }
+    to{
+      background-color: green;
+    }
+  }
+
   span {
     width: 10%;
     float: left;
@@ -74,27 +83,52 @@ $two-side-separator: 30px;
       content: none;
     }
 
-    &:first-child:not(.active):before {
+    &:first-child:not(.completed):before {
       background-color: yellow;
     }
 
-    &.active {
+    &.current {
+      color: green;
+      &:before {
+        border-color: #55b776;
+        background-color: green;
+        animation-name: blink;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+      }
+    }
+
+    &.completed {
       color: green;
       &:before {
         border-color: #55b776;
         background-color: green;
       }
-      & + span:not(.active):before {
+      & + span:not(.completed):before {
         background-color: yellow;
       }
       &:after,
-      & + span:not(.active):after {
+      & + span:not(.completed):after {
         background-color: transparent;
         @media screen and (min-width: 768px) {
           background-color: #55b776;
         }
       }
     }
+  }
+}
+
+.term-content{
+  text-align: justify;
+  h1{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      small{
+        
+          font-size: 0.5em !important;
+      }
   }
 }
 
