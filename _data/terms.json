@@ -8,7 +8,20 @@
                 "id": "CS-6200",
                 "title": "Graduate Intro to Operating Systems (GIOS)",
                 "categories": ["Foundational Course", "Computing Systems"],
-                "grade": "TBA"
+                "grade": "TBA",
+                "references": [{
+                    "title": "Operating System Three Easy Pieces (OSTEP)",
+                    "author": "Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau",
+                    "url": "http://pages.cs.wisc.edu/~remzi/OSTEP/"
+                }, {
+                    "title": "Beej's Guide to C Programming",
+                    "author": "Brian 'Beej' Hall",
+                    "url": "https://beej.us/guide/bgc/"
+                }, {
+                    "title": "Beej's Guide to Network Programming",
+                    "author": "Brian 'Beej' Hall",
+                    "url": "https://beej.us/guide/bgnet/"
+                }]
             }
         ],
         "progress": "In Progress"

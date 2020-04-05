@@ -15,6 +15,10 @@ layout: default
         <h2>{{paper.id}}: {{paper.title}}</h2>
         <div><strong>Catergories:</strong> {{paper.categories|join: ", "}}</div>
         <div><strong>Grade:</strong> {{paper.grade}}</div>
+        <h3>Reading Reference</h3>
+        {% for book in paper.references %}
+        <a href="{{book.url}}" title="Author: {{book.author}}">{{book.title}}</a><br>
+        {% endfor %}
     {% endfor %}
 
     {{ content }}
