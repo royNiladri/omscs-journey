@@ -24,6 +24,9 @@ $two-side-separator: 30px;
   }
 }
 
+.main-content{
+  padding: 0 auto;
+}
 .main-content hr{
   background-color: #ccc;
   height: 1px;
@@ -146,6 +149,10 @@ $two-side-separator: 30px;
 .two-sided {
   display: flex;
   flex-wrap: wrap;
+
+  &.space-between{
+    justify-content: space-between;
+  }
 }
 .course-list {
   width: 100%;

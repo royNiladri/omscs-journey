@@ -9,6 +9,7 @@
                 "title": "Graduate Intro to Operating Systems (GIOS)",
                 "categories": ["Foundational Course", "Computing Systems"],
                 "grade": "TBA",
+                "url": "gios", 
                 "references": [{
                     "title": "Operating System Three Easy Pieces (OSTEP)",
                     "author": "Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau",
@@ -24,62 +25,78 @@
                 }]
             }
         ],
-        "progress": "In Progress"
+        "progress": "current"
     },
     {
         "year": "2020",
         "season": "Summer",
         "url": "summer-2020",
-        "papers": [],
+        "papers": [
+            {
+                "id": "CS-6750",
+                "title": "Human-Computer Interaction (HCI)",
+                "categories": ["Foundational Course", "Interactive Intelligence"],
+                "grade": "TBA",
+                "references": []
+            }
+        ],
         "progress": "Future"
     },
     {
         "year": "2020",
         "season": "Fall",
         "url": "fall-2020",
-        "papers": [],
+        "papers": [
+            {
+                "id": "CS-6290",
+                "title": "High Performance Computer Architecture (HPCA)",
+                "categories": ["Foundational Course", "Interactive Intelligence"],
+                "grade": "TBA",
+                "references": []
+            }
+        ],
         "progress": "Future"
     },
     {
         "year": "2021",
         "season": "Spring",
         "url": "spring-2021",
-        "papers": [],
+        "papers": [{}],
         "progress": "Future"
     },
     {
         "year": "2021",
         "season": "Summer",
         "url": "summer-2021",
-        "papers": [],
+        "papers": [{}],
         "progress": "Future"
     },
     {
         "year": "2021",
         "season": "Fall",
         "url": "fall-2021",
-        "papers": [],
+        "papers": [{}],
         "progress": "Future"
     },
     {
         "year": "2022",
         "season": "Spring",
         "url": "spring-2022",
-        "papers": [],
+        "papers": [{}],
         "progress": "Future"
     },
     {
         "year": "2022",
         "season": "Summer",
         "url": "summer-2022",
-        "papers": [],
+        "papers": [{}],
         "progress": "Future"
     },
     {
         "year": "2022",
         "season": "Fall",
         "url": "fall-2022",
-        "papers": [],
+        "papers": [{}, {}],
         "progress": "Future"
     }
 ]

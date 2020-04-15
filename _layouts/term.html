@@ -10,16 +10,14 @@ layout: default
 <main id="content" class="main-content term-content" role="main">
     <div><a href="{{ site.baseurl }}/">Home</a> > <span>{{page.title}}</span> </div>
 
-    {% assign term = site.data.terms | where_exp: "term", "page.url contains term.url" | first %}
-    {% for paper in term.papers %}
-        <h2>{{paper.id}}: {{paper.title}}</h2>
+    {% assign term = site.data.terms | where_exp: "term", "page.term == term.url" | first %}
+    {% assign paper = term.papers | where_exp: "paper", "page.url contains paper.url" | first %}
         <div><strong>Catergories:</strong> {{paper.categories|join: ", "}}</div>
         <div><strong>Grade:</strong> {{paper.grade}}</div>
         <h3>Reading Reference</h3>
         {% for book in paper.references %}
         <a href="{{book.url}}" title="Author: {{book.author}}">{{book.title}}</a><br>
         {% endfor %}
-    {% endfor %}
 
     {{ content }}
 </main>

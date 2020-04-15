@@ -25,10 +25,10 @@ along the journey and will most likely be related to any course or term.
           {% assign terms = site.data.terms | where_exp: "term", "term.progress != 'Future'" %}
           {%  for term in terms %}
           <tr>
-            <td><a href="{{ term.url }}">{{ term.season }} {{term.year}}</a></td>
+            <td>{{term.year}} {{ term.season }}</td>
             <td>
               {% for paper in term.papers %}
-              {{ paper.title }} <br>
+              <a href="{{ paper.url }}">{{ paper.title }}</a> <br>
               {% endfor %}
             </td>
           </tr>

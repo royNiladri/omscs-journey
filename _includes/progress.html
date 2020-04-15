@@ -1,13 +1,9 @@
 <!-- classes are: 'current' for persent term and 'completed' for past terms -->
 <div class="progressbar">
-    <span title="CS-6200: Intro to Operating Systems" class="current"></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
+    {%  for term in site.data.terms %}
+    {% for paper in term.papers %}
+        <span title="{{ paper.title }}" class="{{term.progress}}"></span>
+    {% endfor %}
+    {% endfor %}
+
 </div>
