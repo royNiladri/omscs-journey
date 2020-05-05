@@ -21,6 +21,9 @@ layout: default
         {% for book in paper.references %}
         <a href="{{book.url}}" title="Author: {{book.author}}">{{book.title}}</a><br>
         {% endfor %}
-
-    {{ content }}
+    
+        <div class="text-justify">
+            {{ content }}
+        </div>
+   
 </main>

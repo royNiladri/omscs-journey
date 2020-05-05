@@ -122,8 +122,14 @@ $two-side-separator: 30px;
   }
 }
 
-.term-content{
+.text-justify{
   text-align: justify;
+  h1, h2, h3, h4{
+    text-align: initial;
+  }
+}
+
+.term-content{
   h1{
       display: flex;
       justify-content: space-between;
