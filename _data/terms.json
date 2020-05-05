@@ -6,10 +6,12 @@
         "papers": [
             {
                 "id": "CS-6200",
-                "title": "Graduate Intro to Operating Systems (GIOS)",
+                "title": "Graduate Intro to Operating Systems",
                 "categories": ["Foundational Course", "Computing Systems"],
-                "grade": "TBA",
-                "url": "gios", 
+                "grade": "A",
+                "url": "gios",
+                "course_url":"https://www.omscs.gatech.edu/cs-6200-introduction-operating-systems",
+                "omscentral_url":"https://omscentral.com/course/CS-6200",
                 "references": [{
                     "title": "Operating System Three Easy Pieces (OSTEP)",
                     "author": "Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau",
@@ -25,7 +27,7 @@
                 }]
             }
         ],
-        "progress": "current"
+        "progress": "completed"
     },
     {
         "year": "2020",
@@ -34,13 +36,16 @@
         "papers": [
             {
                 "id": "CS-6750",
-                "title": "Human-Computer Interaction (HCI)",
+                "title": "Human-Computer Interaction",
                 "categories": ["Foundational Course", "Interactive Intelligence"],
-                "grade": "TBA",
+                "grade": "-",
+                "url": "hci",
+                "course_url":"http://www.omscs.gatech.edu/cs-6750-human-computer-interaction",
+                "omscentral_url":"https://omscentral.com/course/CS-6750",
                 "references": []
             }
         ],
-        "progress": "Future"
+        "progress": "current"
     },
     {
         "year": "2020",

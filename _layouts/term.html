@@ -13,7 +13,10 @@ layout: default
     {% assign term = site.data.terms | where_exp: "term", "page.term == term.url" | first %}
     {% assign paper = term.papers | where_exp: "paper", "page.url contains paper.url" | first %}
         <div><strong>Catergories:</strong> {{paper.categories|join: ", "}}</div>
-        <div><strong>Grade:</strong> {{paper.grade}}</div>
+        <div><strong>Course Details:</strong> <a href="{{paper.course_url}}">{{paper.course_url}}</a></div>
+        <div><strong>Course Review:</strong> <a href="{{paper.omscentral_url}}">{{paper.omscentral_url}}</a></div>
+        <!-- <div><strong>Final Grade:</strong> {{paper.grade}}</div> -->
+
         <h3>Reading Reference</h3>
         {% for book in paper.references %}
         <a href="{{book.url}}" title="Author: {{book.author}}">{{book.title}}</a><br>

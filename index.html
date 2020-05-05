@@ -19,7 +19,8 @@ along the journey and will most likely be related to any course or term.
           <thead>
             <tr>
               <th>Term</th>
-              <th>Course(s)</th>
+              <th>Course</th>
+              <th>Grade</th>
             </tr>
           </thead>
           {% assign terms = site.data.terms | where_exp: "term", "term.progress != 'Future'" %}
@@ -29,6 +30,10 @@ along the journey and will most likely be related to any course or term.
             <td>
               {% for paper in term.papers %}
               <a href="{{ paper.url }}">{{ paper.title }}</a> <br>
+              {% endfor %}
+            </td>
+            <td> {% for paper in term.papers %}
+              {{ paper.grade }}<br>
               {% endfor %}
             </td>
           </tr>
@@ -41,7 +46,7 @@ along the journey and will most likely be related to any course or term.
         <ul>
           {% for post in site.posts %}
             <li>
-              <small>{{post.date | date: "%F"}}: </small>
+              <!-- <small>{{post.date | date: "%F"}}: </small> -->
               <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             </li>
           {% endfor %}
