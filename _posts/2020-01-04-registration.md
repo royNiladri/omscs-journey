@@ -13,7 +13,15 @@ Transaction Component | USD (&#36;) | INR (&#8377;)
 :--|--:|--:
 Tuition Fees | 841.00| 59,978.44
 PayPath Service Fees (2.85%) | 23.97 | 1,709.49
-Currency Markup Fee | NA | TBD
-**TOTAL** | **864.97** | **61,687.93**
+Currency Markup Fee | NA | 1,243.15
+**TOTAL** | **864.97** | **62,931.08**
 
 Classes are supposed to start from **January 6th (Monday)**. Eagerly waiting for the next updates.
+
+# Fees by Semester
+Please note Flywire usually takes 7-8 working days to complete the transaction from the day payment is initiated by the student.
+
+Semester|Courses taken|Payment Mode| Fees (&#36;) | Fees (&#8377;)
+:--|:--|:--|--:|--:
+Spring 2020|GIOS|Credit Card|841|62,931.08
+Summer 2020|HCI|Flywire|841|64,735.00
