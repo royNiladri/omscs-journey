@@ -1,7 +1,7 @@
 [
     {
         "term": "Spring 2020",
-        "subjects": "HCI",
+        "subjects": "GIOS",
         "transaction_date": "2020-01-03",
         "mode": "Credit Card",
         "amount_usd": "841.00",
@@ -9,7 +9,7 @@
     },
     {
         "term": "Summer 2020",
-        "subjects": "HPCA",
+        "subjects": "HCI",
         "transaction_date": "2020-05-02",
         "mode": "Flywire",
         "amount_usd": "841.00",
@@ -17,7 +17,7 @@
     },
     {
         "term": "Fall 2020",
-        "subjects": "GIOS",
+        "subjects": "HPCA",
         "transaction_date": "2020-08-01",
         "mode": "Flywire",
         "amount_usd": "841.00",
