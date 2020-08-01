@@ -21,7 +21,21 @@ Classes are supposed to start from **January 6th (Monday)**. Eagerly waiting for
 # Fees by Semester
 Please note Flywire usually takes 7-8 working days to complete the transaction from the day payment is initiated by the student.
 
-Semester|Courses taken|Payment Mode| Fees (&#36;) | Fees (&#8377;)
-:--|:--|:--|--:|--:
-Spring 2020|GIOS|Credit Card|841|62,931.08
-Summer 2020|HCI|Flywire|841|64,735.00
+<table>
+    <tr>
+        <th>Semester</th>
+        <th>Courses taken</th>
+        <th>Payment Mode</th>
+        <th>Fees (&#36;)</th>
+        <th>Fees (&#8377;)</th>
+    </tr>
+    {% for payment in site.data.payments %}
+    <tr>
+        <td>{{payment.term}}</td>
+        <td>{{payment.subjects}}</td>
+        <td>{{payment.mode}}</td>
+        <td>{{payment.amount_usd}}</td>
+        <td>{{payment.amount_inr}}</td>
+    </tr>
+    {% endfor %}  
+</table>
