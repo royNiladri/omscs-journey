@@ -183,3 +183,13 @@ $two-side-separator: 30px;
     }
   }
 }
+
+figcaption{
+  font-style: italic;
+  font-size: 0.8em;
+  &:before{
+    font-style: normal;
+    font-weight: bold;
+    content: "Figure: "
+  }
+}
