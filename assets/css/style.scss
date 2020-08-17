@@ -24,10 +24,10 @@ $two-side-separator: 30px;
   }
 }
 
-.main-content{
+.main-content {
   padding: 0 auto;
 }
-.main-content hr{
+.main-content hr {
   background-color: #ccc;
   height: 1px;
 }
@@ -37,10 +37,10 @@ $two-side-separator: 30px;
   display: flex;
 
   @keyframes blink {
-    from{
+    from {
       background-color: #55b776;
     }
-    to{
+    to {
       background-color: green;
     }
   }
@@ -122,22 +122,24 @@ $two-side-separator: 30px;
   }
 }
 
-.text-justify{
+.text-justify {
   text-align: justify;
-  h1, h2, h3, h4{
+  h1,
+  h2,
+  h3,
+  h4 {
     text-align: initial;
   }
 }
 
-.term-content{
-  h1{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      small{
-        
-          font-size: 0.5em !important;
-      }
+.term-content {
+  h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    small {
+      font-size: 0.5em !important;
+    }
   }
 }
 
@@ -150,13 +152,58 @@ $two-side-separator: 30px;
   * {
     color: #fff !important;
   }
+
+  @media screen and (min-width: 64em) {
+    .footer-content {
+      max-width: 64rem;
+      padding: 2rem 6rem;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    .footer-content {
+      padding: 2rem 4rem;
+    }
+  }
+  @media screen and (max-width: 42em) {
+    .footer-content {
+      padding: 2rem 1rem;
+    }
+  }
+
+  .support {
+    margin-bottom: 15px;
+    table {
+      margin: auto;
+      a {
+        padding: 0 15px;
+        text-decoration: none;
+        &:visited {
+          text-decoration: none;
+        }
+  
+        img {
+          width: 50px;
+          height: 50px;
+          @media screen and (max-width: 42em){
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+      .value td{
+        color: #fff !important;
+        font-family: cursive, monospace, sans-serif
+      }
+    }
+  }
 }
 
 .two-sided {
   display: flex;
   flex-wrap: wrap;
 
-  &.space-between{
+  &.space-between {
     justify-content: space-between;
   }
 }
@@ -184,12 +231,12 @@ $two-side-separator: 30px;
   }
 }
 
-figcaption{
+figcaption {
   font-style: italic;
   font-size: 0.8em;
-  &:before{
+  &:before {
     font-style: normal;
     font-weight: bold;
-    content: "Figure: "
+    content: "Figure: ";
   }
 }
