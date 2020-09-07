@@ -64,7 +64,12 @@
                 "url": "hpca",
                 "course_url":"https://omscs.gatech.edu/cs-6290-high-performance-computer-architecture",
                 "omscentral_url":"https://omscentral.com/course/CS-6290",
-                "references": []
+                "references": [{
+                    "title": "C++ Library Source Code",
+                    "author": "",
+                    "url": "https://code.woboq.org/userspace/glibc/"
+                    }
+                ]
             }
         ],
         "progress": "current"
