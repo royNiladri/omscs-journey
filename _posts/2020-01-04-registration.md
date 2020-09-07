@@ -1,5 +1,6 @@
 ---
 title: "Registration"
+description: "Money matters!"
 layout: post
 permalink: "registration"
 ---
