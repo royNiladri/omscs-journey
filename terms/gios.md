@@ -1,9 +1,10 @@
 ---
 title: "CS-6200 GIOS"
-description: "Graduate Intro to Operating Systems"
+subject-name: "Graduate Intro to Operating Systems"
+summary: "Fail fast is another important thing that I reinforced in this class. New job, same city relocation, Covid-19 outbreak - with all these, it took me a while to start project 3 and the last few nights were a nightmare. ... I had to turn in Project 3 half baked, but after the finals, it bothers me less. Lost a finger, but saved the rest of the body!"
 layout: term
 term: "spring-2020"
-permalink: "gios"
+permalink: "/gios"
 ---
 
 {% assign term = site.data.terms | where_exp: "term", "page.url contains term.url" | first %}

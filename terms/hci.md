@@ -1,9 +1,10 @@
 ---
 title: "CS-6750 HCI"
-description: "Human-Computer Interaction"
+subject-name: "Human-Computer Interaction"
 layout: term
 term: "summer-2020"
 permalink: "hci"
+summary:  "It sheds light on how things came to be designed the way we see them today. It illustrates how good interfaces tend to be 'invisible', which might be attributed to the narrow gulfs of execution and evaluation. It moves on to formalize different models of users - processor, predictor and participant. It enlightens how context is a crucial factor when evaluating interfaces."
 ---
 
 {% assign term = site.data.terms | where_exp: "term", "page.url contains term.url" | first %}
