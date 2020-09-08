@@ -1,5 +1,6 @@
 ---
 layout: null
+permalink: feed/terms
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:cc="http://cyber.law.harvard.edu/rss/creativeCommonsRssModule.html">
@@ -21,7 +22,7 @@ layout: null
  <item>
   <title>{{ page.title }}</title>
   <description>{{ page.teaser }}</description>
-  <guid isPermaLink="true">{{ site.url }}{{site.baseurl}}{{ page.url }}</guid>
+  <guid isPermaLink="true">{{ site.url }}{{site.baseurl}}{{ page.url }}?source=rss</guid>
   <pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
   <category>{{page.term}}</category>
   <category>{{page.permalink}}</category>
