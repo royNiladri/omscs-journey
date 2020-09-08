@@ -20,7 +20,7 @@
 
 title: My OMSCS Journey
 email: nilroy@example.com
-description: ""
+description: "Come join me in my journey of persuing Masters of Science in Computer Science from Georgia Institute of Technology."
 baseurl: "/omscs-journey" # the subpath of your site, e.g. /blog
 url: "https://royniladri.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-153486671-1
@@ -31,8 +31,10 @@ github_username:  royNiladri
 theme: jekyll-theme-cayman
 plugins:
   # - jekyll-feed
+  - jekyll-sitemap
   - jemoji
 
+permalink: pretty
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
