@@ -18,9 +18,9 @@ along the journey and will most likely be related to any course or term.
         <table>
           <thead>
             <tr>
-              <th>Term</th>
-              <th>Course</th>
-              <th>Grade</th>
+              <th class="term">Term</th>
+              <th class="course">Course</th>
+              <th class="grade">Grade</th>
             </tr>
           </thead>
           {% assign terms = site.data.terms | where_exp: "term", "term.progress != 'Future'" %}
@@ -39,6 +39,9 @@ along the journey and will most likely be related to any course or term.
           </tr>
           {% endfor %}
         </table>
+
+        <h1>Feedback</h1>
+        You can see the feedback <a href="{{site.baseurl}}/feedback">here</a>, and add your comments using the link at the top of the page.
     </div>
     
     <div class="blog-list">

@@ -213,6 +213,10 @@ $two-side-separator: 30px;
     width: $course-list-width;
     padding-right: $two-side-separator/2;
   }
+
+  table{
+    .term{width: 25%;}
+  }
 }
 
 .blog-list {
