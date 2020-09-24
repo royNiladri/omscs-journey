@@ -9,10 +9,13 @@ layout: default
 
 <main id="content" class="main-content" role="main">
     <div class="two-sided space-between">
-        <div><a href="{{ site.baseurl }}/">Home</a> > <span>{{ page.date | date: "%Y" }}</span> > <span>{{page.title}}</span> </div>
+        <div><a href="{{ site.baseurl }}/">Home</a> > <span>{{ page.date | date: "%Y" }}</span> >
+            <span>{{page.title}}</span> </div>
         <div>{{page.date | date: "%-d %B %Y"}}</div>
     </div>
     <hr>
-    
-    {{ content }}
+
+    <div class="text-justify">
+        {{ content }}
+    </div>
 </main>
