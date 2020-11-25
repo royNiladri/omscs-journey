@@ -5,4 +5,4 @@ bundle exec jekyll serve
 ```
 
 # Deployed Page Link
-[OMSCS Journey](https://royniladri.github.io/omscs-journey/)
+[OMSCS Journey](https://omscs.royniladri.dev/)

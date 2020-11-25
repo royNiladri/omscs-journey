@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: My OMSCS Journey
+title: OMSCS Journey
 email: nilroy@example.com
 description: "Come join me in my journey of persuing Masters of Science in Computer Science from Georgia Institute of Technology."
 #baseurl: "/omscs-journey" # the subpath of your site, e.g. /blog
@@ -26,6 +26,7 @@ url: "https://omscs.royniladri.dev" # the base hostname & protocol for your site
 google_analytics: UA-153486671-1
 # twitter_username: jekyllrb
 github_username:  royNiladri
+author: "Roy, Niladri"
 
 # Build settings
 theme: jekyll-theme-cayman
