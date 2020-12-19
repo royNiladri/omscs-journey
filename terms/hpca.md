@@ -39,6 +39,7 @@ Conditionals are a part and parcel of our everyday life and we often do not cons
 While this point is a little contradicting to my point above, it should be noted that compilers try to make our life easier. While we learn about the internal workings of the processor, compilers too are getting better at producing optimised code. But if we start to manually unroll loops, we might end up introducing a bug or worse confuse the compiler. The first goal should be writing clean code that is easy for *human* to understand. If performance enhancements are required, then we can start tweaking and running benchmarks to confirm if the optimization is actually reaping benefits.
 ## Many cores and cache coherence
 > With many cores, comes many coherence issues.
+
 As multiple cores starts working with the same data, it becomes increasingly difficult to ensure coherence and consistency. Lot of factors have to be taken into account to deal with the problems: cache capacity, correctness, updating memory, bus traffic, cache pollution and so on. In the end, as usual it comes down to trading off something for another.
 ## Reliability
 Disks will fail, datacentres will collapse. Redundancy and error detection are crucial to keep data alive and processing capability alive. The cost and need for dependency deepens on the application - is is a small personal business or a manned space mission? The later will need multiple layers of redundancy and fail-safes to avoid loss of life.
