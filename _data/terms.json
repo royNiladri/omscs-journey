@@ -60,7 +60,7 @@
                 "id": "CS-6290",
                 "title": "High Performance Computer Architecture (HPCA)",
                 "categories": ["Foundational Course", "Interactive Intelligence"],
-                "grade": "-",
+                "grade": "A",
                 "url": "hpca",
                 "course_url":"https://omscs.gatech.edu/cs-6290-high-performance-computer-architecture",
                 "omscentral_url":"https://omscentral.com/course/CS-6290",
@@ -76,7 +76,7 @@
                 ]
             }
         ],
-        "progress": "current"
+        "progress": "completed"
     },
     {
         "year": "2021",
