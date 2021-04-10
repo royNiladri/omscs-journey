@@ -1,95 +1,93 @@
-[
-    {
+[{
         "year": "2020",
         "season": "Spring",
         "url": "spring-2020",
-        "papers": [
-            {
-                "id": "CS-6200",
-                "title": "Graduate Intro to Operating Systems",
-                "categories": ["Foundational Course", "Computing Systems"],
-                "grade": "A",
-                "url": "gios",
-                "course_url":"https://www.omscs.gatech.edu/cs-6200-introduction-operating-systems",
-                "omscentral_url":"https://omscentral.com/course/CS-6200",
-                "references": [{
-                    "title": "Operating System Three Easy Pieces (OSTEP)",
-                    "author": "Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau",
-                    "url": "http://pages.cs.wisc.edu/~remzi/OSTEP/"
-                }, {
-                    "title": "Beej's Guide to C Programming",
-                    "author": "Brian 'Beej' Hall",
-                    "url": "https://beej.us/guide/bgc/"
-                }, {
-                    "title": "Beej's Guide to Network Programming",
-                    "author": "Brian 'Beej' Hall",
-                    "url": "https://beej.us/guide/bgnet/"
-                }]
-            }
-        ],
+        "papers": [{
+            "id": "CS-6200",
+            "title": "Graduate Intro to Operating Systems",
+            "categories": ["Foundational Course", "Computing Systems"],
+            "grade": "A",
+            "url": "gios",
+            "course_url": "https://www.omscs.gatech.edu/cs-6200-introduction-operating-systems",
+            "omscentral_url": "https://omscentral.com/course/CS-6200",
+            "references": [{
+                "title": "Operating System Three Easy Pieces (OSTEP)",
+                "author": "Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau",
+                "url": "http://pages.cs.wisc.edu/~remzi/OSTEP/"
+            }, {
+                "title": "Beej's Guide to C Programming",
+                "author": "Brian 'Beej' Hall",
+                "url": "https://beej.us/guide/bgc/"
+            }, {
+                "title": "Beej's Guide to Network Programming",
+                "author": "Brian 'Beej' Hall",
+                "url": "https://beej.us/guide/bgnet/"
+            }]
+        }],
         "progress": "completed"
     },
     {
         "year": "2020",
         "season": "Summer",
         "url": "summer-2020",
-        "papers": [
-            {
-                "id": "CS-6750",
-                "title": "Human-Computer Interaction",
-                "categories": ["Foundational Course", "Interactive Intelligence"],
-                "grade": "A",
-                "url": "hci",
-                "course_url":"http://www.omscs.gatech.edu/cs-6750-human-computer-interaction",
-                "omscentral_url":"https://omscentral.com/course/CS-6750",
-                "references": [{
-                    "title": "The Design of Everyday Things",
-                    "author": "Don Norman",
-                    "url": "https://www.google.com/search?q=%22The%20Design%20of%20Everyday%20Things%22"
-                }]
-            }
-        ],
+        "papers": [{
+            "id": "CS-6750",
+            "title": "Human-Computer Interaction",
+            "categories": ["Foundational Course", "Interactive Intelligence"],
+            "grade": "A",
+            "url": "hci",
+            "course_url": "http://www.omscs.gatech.edu/cs-6750-human-computer-interaction",
+            "omscentral_url": "https://omscentral.com/course/CS-6750",
+            "references": [{
+                "title": "The Design of Everyday Things",
+                "author": "Don Norman",
+                "url": "https://www.google.com/search?q=%22The%20Design%20of%20Everyday%20Things%22"
+            }]
+        }],
         "progress": "completed"
     },
     {
         "year": "2020",
         "season": "Fall",
         "url": "fall-2020",
-        "papers": [
-            {
-                "id": "CS-6290",
-                "title": "High Performance Computer Architecture (HPCA)",
-                "categories": ["Foundational Course", "Interactive Intelligence"],
-                "grade": "A",
-                "url": "hpca",
-                "course_url":"https://omscs.gatech.edu/cs-6290-high-performance-computer-architecture",
-                "omscentral_url":"https://omscentral.com/course/CS-6290",
-                "references": [{
-                    "title": "C++ Library Source Code",
-                    "author": "",
-                    "url": "https://code.woboq.org/userspace/glibc/"
-                    }, {
-                        "title": "Computer Architecture A Quantitative Approach (5th edition)",
-                        "author": "John N. Hennessy, David A. Patterson",
-                        "url": "https://www.google.com/search?q=Computer%20Architecture%20A%20Quantitative%20Approach"
-                    }
-                ]
-            }
-        ],
+        "papers": [{
+            "id": "CS-6290",
+            "title": "High Performance Computer Architecture (HPCA)",
+            "categories": ["Foundational Course", "Interactive Intelligence"],
+            "grade": "A",
+            "url": "hpca",
+            "course_url": "https://omscs.gatech.edu/cs-6290-high-performance-computer-architecture",
+            "omscentral_url": "https://omscentral.com/course/CS-6290",
+            "references": [{
+                "title": "C++ Library Source Code",
+                "author": "",
+                "url": "https://code.woboq.org/userspace/glibc/"
+            }, {
+                "title": "Computer Architecture A Quantitative Approach (5th edition)",
+                "author": "John N. Hennessy, David A. Patterson",
+                "url": "https://www.google.com/search?q=Computer%20Architecture%20A%20Quantitative%20Approach"
+            }]
+        }],
         "progress": "completed"
-    },
-    {
-        "year": "2021",
-        "season": "Spring",
-        "url": "spring-2021",
-        "papers": [{}],
-        "progress": "Future"
     },
     {
         "year": "2021",
         "season": "Summer",
         "url": "summer-2021",
-        "papers": [{}],
+        "papers": [{
+            "id": "CS-7638",
+            "title": "Artificial Intelligence for Robotics (AI4R)",
+            "categories": ["Foundational Course", "Computational Perception and Robotics"],
+            "grade": "",
+            "url": "ai4r",
+            "course_url": "https://omscs.gatech.edu/cs-7638-artificial-intelligence-robotics",
+            "omscentral_url": "https://omscentral.com/course/CS-7638",
+            "references": [{
+                "title": "Probabilistic Robotics",
+                "author": "Sebastian Thrun, Wolfram Burgard, Dieter Fox",
+                "url": "http://probabilistic-robotics.org/"
+            }]
+        }],
         "progress": "Future"
     },
     {

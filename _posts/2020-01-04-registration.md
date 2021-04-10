@@ -1,5 +1,5 @@
 ---
-title: "Registration"
+title: "Registration and Fees"
 description: "Money matters!"
 layout: post
 permalink: "registration"
@@ -12,10 +12,10 @@ As for payments, there are multiple options. I used Credit Card (because it's th
 
 Transaction Component | USD (&#36;) | INR (&#8377;)
 :--|--:|--:
-Tuition Fees | 841.00| 59,978.44
-PayPath Service Fees (2.85%) | 23.97 | 1,709.49
+Tuition Fees | 841.00| 60,434.85
+PayPath Service Fees (2.85%) | 23.97 | 1,772.50
 Currency Markup Fee | NA | 1,243.15
-**TOTAL** | **864.97** | **62,931.08**
+**TOTAL** | **864.97** | **63,450.08**
 
 Classes are supposed to start from **January 6th (Monday)**. Eagerly waiting for the next updates.
 

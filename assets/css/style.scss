@@ -244,3 +244,11 @@ figcaption {
     content: "Figure: ";
   }
 }
+
+.comments{
+  margin-top: 25px;
+  border-top: 1px solid #e9ebec;
+  min-height: 100px;
+  background: url('../images/spinner.svg') center center no-repeat;
+  background-size: 56px 56px;
+}

@@ -5,90 +5,11 @@ description: Like it? Love it? Hate it?
 permalink: feedback
 ---
 
-<script>
-    (function () {
-        let requestOptions = {
-            method: 'GET',
-            redirect: 'follow'
-        };
-
-        fetch("https://api.github.com/repos/royNiladri/omscs-journey/issues/2/comments", requestOptions)
-            .then(response => response.text())
-            .then(result => addComments(JSON.parse(result)))
-            .catch(error => console.log('error', error));
-
-        function addComments(comments) {
-            document.readyState
-            let commentsHolder = document.getElementById("comments");
-
-            for (let c of comments) {
-                console.log(c);
-                let wrapper = document.createElement("div");
-                wrapper.style.display = "flex";
-                wrapper.style.marginBottom = "15px";
-                
-                let avatar = document.createElement("img");
-                avatar.width = "50";
-                avatar.height = "50";
-                avatar.style.border = "1px solid transparent";
-                avatar.style.borderRadius = "25px";
-                avatar.setAttribute("src", c.user.avatar_url);
-                
-                let commentMain = document.createElement("div");
-                commentMain.style.display = "flex";
-                commentMain.style.flexGrow = 1;
-                commentMain.style.flexDirection = "column";
-                commentMain.style.border = "1px solid #c0d3eb";
-                commentMain.style.borderRadius = "5px";
-                commentMain.style.marginLeft = "10px";
-
-                let header = document.createElement("div");
-                header.style.backgroundColor = "#f1f8ff";
-                header.style.borderBottom = "1px solid #c0d3eb";
-                header.style.paddingBottom = "5px";
-                header.style.paddingTop = "5px";
-                header.style.paddingLeft = "10px";
-                header.style.paddingRight = "10px";
-                header.innerHTML = `<strong>${c.user.login}</strong> commented ${formatTime(c.created_at)}`;
-                commentMain.appendChild(header);
-
-                let body = document.createElement("div");
-                body.style.paddingBottom = "5px";
-                body.style.paddingTop = "5px";
-                body.style.paddingLeft = "10px";
-                body.style.paddingRight = "10px";
-                body.innerHTML = c.body;
-
-                commentMain.appendChild(body);
-
-                wrapper.appendChild(avatar);
-                wrapper.appendChild(commentMain);
-
-                commentsHolder.appendChild(wrapper);
-            }
-        }
-        
-        function formatTime(datetime){
-            let stamp = new Date(datetime);
-            let now = new Date();
-
-            months = [
-                'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
-            ]
-
-            let str = `on ${months[stamp.getMonth()]} ${stamp.getDay()}`;
-            if(stamp.getFullYear() !== now.getFullYear()){
-                str += `, ${stamp.getFullYear()}`;
-            }
-
-            return str;
-        }
-    })();
-</script>
-
-Join the communication at <a href="https://github.com/royNiladri/omscs-journey/issues/2">GitHub</a>. Your comments will be visible here shortly!
-<br><br>
-
 <div class="comments" id="comments">
-
+    <script src="https://utteranc.es/client.js" 
+        repo="royNiladri/omscs-journey" 
+        issue-term="Feedback"
+        theme="github-light" 
+        crossorigin="anonymous" async>
+    </script>
 </div>
