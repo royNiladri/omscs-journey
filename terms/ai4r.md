@@ -9,6 +9,7 @@ summary: ""
 
 {% assign term = site.data.terms | where_exp: "term", "page.url contains term.url" | first %}
 
+[Summer 2021 Schedule](https://docs.google.com/spreadsheets/d/1tePBL1L-rseevy6vRbRe2mqcxgGlDudkUYPQLuJSVU4/edit?usp=sharing)
 <!-- # Recommended Prerequisites
 While computer architecture and C++ are listed as basic prerequisites, having even basic fundamental knowledge is enough to get started. Most of the things required can be picked up during the course. One important thing is to be active on Piazza. From projects to quiz, there are couple of errata, and missing Piazza will be a nightmare. Also, the office hours are not recorded, so need to plan to attend if you are interested. The atmosphere is like a small classroom with a few people and Professor patiently explains and clarifies doubts.
 
