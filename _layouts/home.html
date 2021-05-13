@@ -3,7 +3,6 @@ layout: default
 ---
 <header class="page-header" role="banner">
   <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-  <!-- <strong>:house_with_garden: :man: ================================================== :books:</strong> -->
   {% include progress.html %}
   <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}
   </h2>
@@ -11,7 +10,6 @@ layout: default
   <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
   <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
   {% endif %}
-  <!-- <a href="about" class="btn">AboutMe</a> -->
 </header>
 
 <main id="content" class="main-content" role="main">
