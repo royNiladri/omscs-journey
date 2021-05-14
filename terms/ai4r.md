@@ -9,6 +9,55 @@ summary: ""
 
 {% assign term = site.data.terms | where_exp: "term", "page.url contains term.url" | first %}
 
+
+# Summer 2021 Schedule
+
+<details>
+    <summary>Click to expand/collapse</summary>
+
+| Week #     | Deadline    | Name                         |
+|:-----------| :---------: | :--------------------------- |
+| 1          | 23-May-2021 | 📚 Localization              |
+| 1          | 23-May-2021 | 📝 Problem Set 1             |
+| 2          | 30-May-2021 | 📚 Kalman Filters            |
+| 2          | 30-May-2021 | 📝 Problem Set 2             |
+| 2          | 30-May-2021 | 📚 Particle Filters          |
+| 2          | 30-May-2021 | 📚 Kinetic Bicycle Model 101 |
+| 2          | 30-May-2021 | 📝 Problem Set 3             |
+| 3          | 06-Jun-2021 | 💻 Kalman Filter Project     |
+| 4          | 13-Jun-2021 | 📚 Search                    |
+| 4          | 13-Jun-2021 | 📝 Problem Set 4             |
+| 4          | 13-Jun-2021 | 📚 PID Control               |
+| 4          | 13-Jun-2021 | 📝 Problem Set 5             |
+| 5          | 20-Jun-2021 | 💻 Particle Filter Project   |
+| 6          | 27-Jun-2021 | 📚 SLAM                      |
+| 6          | 27-Jun-2021 | 📝 Problem Set 6             |
+| 7          | 02-Jul-2021 | 💻 PID Mini-Project          |
+| 8          | 11-Jul-2021 | 💻 Search Project            |
+| 10         | 25-Jul-2021 | 💻 SLAM Project              |
+| 11         | 31-Jul-2021 | ✒ Final                      |
+
+ 
+</details>
+
+**Note:** Deadlines here are mostly 1 day prior to official deadlines
+
+# Recommended Prerequisites
+The course will use **Python 3** as the programming language. I will confirm if using libraries like `numpy` are allowed for the projects and problem sets. Basic understanding of **probability** will be expected.
+
+# Development Environment
+_[Section is under progress]_
+- VS Code [Extensions listed below]
+    - Jupyter
+    - Python (Pylance)
+- Anaconda (Python3)
+
+I create Jupyter Notebooks for the class and problem sets for ease of working. If published to GitHub private repo (do not publish projects/problem set solutions to public repository as at violates Academic Policies), it is rendered as a formatted notebook. Read more about that at [GitHub Blog](https://github.blog/2015-05-07-github-jupyter-notebooks-3/) or [Jupyter Blog](https://blog.jupyter.org/rendering-notebooks-on-github-f7ac8736d686)
+
+<!-- # Problem Sets -->
+<!-- ## Localization in 2D -->
+
+<!-- # Projects -->
 <!-- # Recommended Prerequisites
 While computer architecture and C++ are listed as basic prerequisites, having even basic fundamental knowledge is enough to get started. Most of the things required can be picked up during the course. One important thing is to be active on Piazza. From projects to quiz, there are couple of errata, and missing Piazza will be a nightmare. Also, the office hours are not recorded, so need to plan to attend if you are interested. The atmosphere is like a small classroom with a few people and Professor patiently explains and clarifies doubts.
 

@@ -252,3 +252,17 @@ figcaption {
   background: url('../images/spinner.svg') center center no-repeat;
   background-size: 56px 56px;
 }
+
+details{
+  summary{
+    cursor: pointer;
+  }
+  
+  summary::before{
+    content: url('../images/caret-right-fill.svg');
+  }
+
+  &[open] summary::before{
+    content: url('../images/caret-down-fill.svg');
+  }
+}
