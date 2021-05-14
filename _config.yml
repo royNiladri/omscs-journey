@@ -35,6 +35,11 @@ plugins:
   - jekyll-sitemap
   - jemoji
 
+markdown: CommonMarkGhPages
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table"]
+
 permalink: pretty
 # Exclude from processing.
 # The following items will not be processed, by default.
