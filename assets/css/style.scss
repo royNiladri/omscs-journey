@@ -129,6 +129,10 @@ $two-side-separator: 30px;
   h3,
   h4 {
     text-align: initial;
+    a, a:hover, a:visited {
+      text-decoration: none;
+      color: inherit;
+    }
   }
 }
 
@@ -264,5 +268,20 @@ details{
 
   &[open] summary::before{
     content: url('../images/caret-down-fill.svg');
+  }
+}
+
+.yt-container {
+  position: relative;
+  height: 0;
+  margin: auto;
+  padding-bottom: 56.25%;
+
+  .yt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 }

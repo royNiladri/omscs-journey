@@ -9,8 +9,9 @@ summary: ""
 
 {% assign term = site.data.terms | where_exp: "term", "page.url contains term.url" | first %}
 
+<div></div>
 
-# Summer 2021 Schedule
+### Summer 2021 Schedule
 
 <details>
     <summary>Click to expand/collapse</summary>
@@ -53,6 +54,23 @@ _[Section is under progress]_
 - Anaconda (Python3)
 
 I create Jupyter Notebooks for the class and problem sets for ease of working. If published to GitHub private repo (do not publish projects/problem set solutions to public repository as at violates Academic Policies), it is rendered as a formatted notebook. Read more about that at [GitHub Blog](https://github.blog/2015-05-07-github-jupyter-notebooks-3/) or [Jupyter Blog](https://blog.jupyter.org/rendering-notebooks-on-github-f7ac8736d686)
+
+# Projects
+## [01 Meteorites](#meteorites)
+The objective of this project was to localize falling meteorites and shoot them down. Meteorites could be detected first at any part of the screen, and there are restrictions on how far the turret can be rotated in 1 timestamp. Also, the turret could either be rotated, or fired, and not both. This project was an exciting hands on for `Kalman Filters`.
+
+{% include youtube.html id="xB63bpXEzdA" %}
+
+### Tips
+Piazza posts, office hours and reference links have been greatly helpful. Focus on solving localization first as that has most of the weightage. Once localized, even a very simple targeting algorithm (as discussed in Piazza/office hours) will work. Note that the meteorites passed in subsequent calls are not sorted in any order, and blasted meteorites are passed on in subsequent calls as well. So you need to keep track of meteorites by ID and consider only those that are alive when targetting.
+
+## [02 Mars Glider](#mars-glider)
+A glider is dropped from a shuttle in orbit of Mars. Given a low resolution map, radar sensor and barometric sensor, we have to localize the glider and then navigate it back to the centre of the map. The on-board sensors are noisy and we have limited time to complete the navigation. This project was based on `Particle Filters`
+
+{% include youtube.html id="eDNV03VIxgY" %}
+
+### Tips
+The hard part of the problem was parameter tuning. I sadly have not been able to score perfectly, but have enough to earn a little extra credit! I would recommend reading through the problem statement, browsing through all relevant Piazza posts and ruthlessly tuning parameters. Using the visualization helps in determining what is going wrong. There are a lot of trade-offs to consider, and bear in mind that Gradescope machine will be slower and hence might produce lesser score than on local. Finally, generate random test cases using provided utility to verify tuned parameters.
 
 <!-- # Problem Sets -->
 <!-- ## Localization in 2D -->
