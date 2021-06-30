@@ -1,6 +1,5 @@
----
----
-
+--- 
+--- 
 @import "jekyll-theme-cayman";
 
 $course-list-width: 75%;
@@ -10,6 +9,7 @@ $two-side-separator: 30px;
 .page-header.term,
 .page-header.post {
   padding: 1rem 6rem;
+
   .project-name {
     text-transform: uppercase;
   }
@@ -17,6 +17,7 @@ $two-side-separator: 30px;
   .post-name {
     margin-bottom: 10px;
   }
+
   .post-tagline {
     margin-top: 0;
     font-weight: normal;
@@ -27,6 +28,7 @@ $two-side-separator: 30px;
 .main-content {
   padding: 0 auto;
 }
+
 .main-content hr {
   background-color: #ccc;
   height: 1px;
@@ -40,6 +42,7 @@ $two-side-separator: 30px;
     from {
       background-color: #55b776;
     }
+
     to {
       background-color: green;
     }
@@ -74,9 +77,11 @@ $two-side-separator: 30px;
       content: "";
       position: absolute;
       background-color: transparent;
+
       @media screen and (min-width: 768px) {
         background-color: #7d7d7d;
       }
+
       top: 10px;
       left: -41%;
       transform: translateZ(-1px);
@@ -92,6 +97,7 @@ $two-side-separator: 30px;
 
     &.current {
       color: green;
+
       &:before {
         border-color: #55b776;
         background-color: green;
@@ -104,16 +110,20 @@ $two-side-separator: 30px;
 
     &.completed {
       color: green;
+
       &:before {
         border-color: #55b776;
         background-color: green;
       }
-      & + span:not(.completed):before {
+
+      &+span:not(.completed):before {
         background-color: yellow;
       }
+
       &:after,
-      & + span:not(.completed):after {
+      &+span:not(.completed):after {
         background-color: transparent;
+
         @media screen and (min-width: 768px) {
           background-color: #55b776;
         }
@@ -124,12 +134,16 @@ $two-side-separator: 30px;
 
 .text-justify {
   text-align: justify;
+
   h1,
   h2,
   h3,
   h4 {
     text-align: initial;
-    a, a:hover, a:visited {
+
+    a,
+    a:hover,
+    a:visited {
       text-decoration: none;
       color: inherit;
     }
@@ -141,6 +155,7 @@ $two-side-separator: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     small {
       font-size: 0.5em !important;
     }
@@ -153,6 +168,7 @@ $two-side-separator: 30px;
   text-align: center;
   background-color: #159957;
   background-image: linear-gradient(120deg, #155799, #159957);
+
   * {
     color: #fff !important;
   }
@@ -164,11 +180,13 @@ $two-side-separator: 30px;
       margin: 0 auto;
     }
   }
+
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .footer-content {
       padding: 2rem 4rem;
     }
   }
+
   @media screen and (max-width: 42em) {
     .footer-content {
       padding: 2rem 1rem;
@@ -177,25 +195,30 @@ $two-side-separator: 30px;
 
   .support {
     margin-bottom: 15px;
+
     table {
       margin: auto;
+
       a {
         padding: 0 15px;
         text-decoration: none;
+
         &:visited {
           text-decoration: none;
         }
-  
+
         img {
           width: 50px;
           height: 50px;
-          @media screen and (max-width: 42em){
+
+          @media screen and (max-width: 42em) {
             width: 25px;
             height: 25px;
           }
         }
       }
-      .value td{
+
+      .value td {
         color: #fff !important;
         font-family: cursive, monospace, sans-serif
       }
@@ -211,20 +234,25 @@ $two-side-separator: 30px;
     justify-content: space-between;
   }
 }
+
 .course-list {
   width: 100%;
+
   @media screen and (min-width: 768px) {
     width: $course-list-width;
     padding-right: $two-side-separator/2;
   }
 
-  table{
-    .term{width: 25%;}
+  table {
+    .term {
+      width: 25%;
+    }
   }
 }
 
 .blog-list {
   width: 100%;
+
   @media screen and (min-width: 768px) {
     width: $blog-list-width;
     padding-left: $two-side-separator/2;
@@ -233,6 +261,7 @@ $two-side-separator: 30px;
   ul {
     margin: 0;
     padding: 0;
+
     li {
       list-style: none;
     }
@@ -242,6 +271,7 @@ $two-side-separator: 30px;
 figcaption {
   font-style: italic;
   font-size: 0.8em;
+
   &:before {
     font-style: normal;
     font-weight: bold;
@@ -249,7 +279,7 @@ figcaption {
   }
 }
 
-.comments{
+.comments {
   margin-top: 25px;
   border-top: 1px solid #e9ebec;
   min-height: 100px;
@@ -257,16 +287,16 @@ figcaption {
   background-size: 56px 56px;
 }
 
-details{
-  summary{
+details {
+  summary {
     cursor: pointer;
   }
-  
-  summary::before{
+
+  summary::before {
     content: url('../images/caret-right-fill.svg');
   }
 
-  &[open] summary::before{
+  &[open] summary::before {
     content: url('../images/caret-down-fill.svg');
   }
 }
@@ -283,5 +313,70 @@ details{
     left: 0;
     width: 100%;
     height: 100%;
+  }
+}
+
+#mc_embed_signup form {
+  border-top: 1px solid #ddd;
+  padding: 20px 0 0 0;
+  margin-top: 10px;
+
+  #mc_embed_signup_scroll {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    .newsletter-label {
+      font-size: small;
+      font-weight: 600;
+      font-family: system-ui;
+      text-align: center;
+      width: 25%;
+    }
+
+    .mc-field-group {
+      width: 50%;
+
+      input {
+        width: 100%;
+        outline: none;
+        border: 1px solid #ddd;
+        border-radius: 7px;
+        padding: 5px 10px;
+      }
+
+      input:focus-visible {
+        outline: none;
+        border: 1px solid rgb(41,98,255);
+        border-radius: 7px;
+      }
+    }
+
+    .button {
+      width: 15%;
+
+      button {
+        width: 100%;
+        border-radius: 7px;
+        border-color: transparent;
+        color: #fff;
+        background-color: rgb(21, 153, 87);
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      flex-wrap: wrap;
+      .newsletter-label{
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .mc-field-group{
+        width: 60%;
+      }
+      .button{
+        width: 35%;
+      }
+    }
   }
 }
