@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: " en-US" }}">
 
 <head>
-
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     {% if site.google_analytics %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
     <script>
@@ -19,10 +20,13 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="icon" type="image/ico" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/images/gt-logo.png">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <!-- https://css-tricks.com/essential-meta-tags-social-media/ add meta tags -->
     <meta property="og:image" content="{{site.url}}{{site.baseurl}}/assets/images/page-img.jpg">
     <meta property="twitter:image:src" content="{{site.url}}{{site.baseurl}}/assets/images/page-img.jpg">
+
+    <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
@@ -50,6 +54,23 @@
 
         </div>
     </footer>
+
+    <script>
+        if ("serviceWorker" in navigator) {
+            if (navigator.serviceWorker.controller) {
+                console.log("An active service worker found, no need to register");
+            } else {
+                // Register the service worker
+                navigator.serviceWorker
+                    .register("{{ '/serviceworker.js?v=' | append: site.github.build_revision | relative_url }}", {
+                        scope: "./"
+                    })
+                    .then(function (reg) {
+                        console.log("Service worker has been registered for scope: " + reg.scope);
+                    });
+            }
+        }
+    </script>
 </body>
 
 </html>

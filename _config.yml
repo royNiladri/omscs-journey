@@ -28,6 +28,9 @@ google_analytics: UA-153486671-1
 github_username:  royNiladri
 author: "Roy, Niladri"
 
+name: "OMSCS Journey - Niladri Roy"
+short_name: "OMSCSJourney"
+
 # Build settings
 theme: jekyll-theme-cayman
 plugins:
