@@ -13,7 +13,7 @@
         "src": "/assets/images/gt-logo-maskable.png",
         "sizes": "240x240",
         "type": "image/png",
-        "puspose": "maskable"
+        "purpose": "maskable"
       },
       {
         "src": "/assets/images/page-img-512.png",
