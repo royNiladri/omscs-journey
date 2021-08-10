@@ -22,8 +22,11 @@ Classes are supposed to start from **January 6th (Monday)**. Eagerly waiting for
 # Fees by Semester
 Please note Flywire usually takes 7-8 working days to complete the transaction from the day payment is initiated by the student.
 
-| Semester    | Courses taken | Payment Mode | Fees (&#36;) | Fees (&#8377;) |
-|-------------|---------------|--------------|--------------|----------------|
-| Spring 2020 | GIOS          | Credit Card  | 841.00       | 63,450.08      |
-| Summer 2020 | HCI           | Flywire      | 841.00       | 64,735.00      |
-| Fall 2020   | HPCA          | Flywire      | 841.00       | 64,276.00      |
+| Semester    | Courses taken | Payment Mode | Fees (&#36;) |  Fees (&#8377;) |
+|-------------|---------------|--------------|-------------:|----------------:|
+| Spring 2020 | GIOS          | Credit Card  |       841.00 |       63,450.08 |
+| Summer 2020 | HCI           | Flywire      |       841.00 |       64,735.00 |
+| Fall 2020   | HPCA          | Flywire      |       841.00 |       64,276.00 |
+| Summer 2021 | AI4R          | Flywire      |       841.00 |       64,228.00 |
+| Fall 2021   | ML, ML4T      | Flywire      |     1,381.00 |     1,04,607.00 |
+| **Total**   |               |              | **4,745.00** | **3,61,296.08** |
