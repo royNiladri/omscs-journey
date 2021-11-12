@@ -97,28 +97,19 @@
         "papers": [{
             "id": "CS-7646",
             "title": "Machine Learning for Trading (ML4T)",
-            "categories": ["Foundational Course", "Computational Perception and Robotics"],
+            "categories": ["Foundational Course", "Machine Learning"],
             "grade": "",
             "url": "ml4t",
             "course_url": "https://omscs.gatech.edu/cs-7646-machine-learning-trading",
             "omscentral_url": "https://omscentral.com/course/CS-7646",
             "references": [{
-                "title": "Probabilistic Robotics",
-                "author": "Sebastian Thrun, Wolfram Burgard, Dieter Fox",
-                "url": "http://probabilistic-robotics.org/"
-            }]
-        }, {
-            "id": "CS-7641",
-            "title": "Machine Learning (ML)",
-            "categories": ["Foundational Course", "Interactive Intelligence", "Machine Learning", "Computational Perception and Robotics"],
-            "grade": "",
-            "url": "ml",
-            "course_url": "https://omscs.gatech.edu/cs-7641-machine-learning",
-            "omscentral_url": "https://omscentral.com/course/CS-7641",
-            "references": [{
-                "title": "Probabilistic Robotics",
-                "author": "Sebastian Thrun, Wolfram Burgard, Dieter Fox",
-                "url": "http://probabilistic-robotics.org/"
+                "title": "What Hedge Funds Really Do",
+                "author": "Philip J. Romero, Tucker Balch",
+                "url": "https://www.google.com/search?q=what+hedge+funds+really+do"
+            }, {
+                "title": "Python for Finance",
+                "author": "Yves Hilpisch",
+                "url": "https://www.oreilly.com/library/view/python-for-finance/9781492024323/"
             }]
         }],
         "progress": "current"
@@ -134,7 +125,20 @@
         "year": "2022",
         "season": "Summer",
         "url": "summer-2022",
-        "papers": [{}],
+        "papers": [{
+            "id": "CS-7641",
+            "title": "Machine Learning (ML)",
+            "categories": ["Foundational Course", "Interactive Intelligence", "Machine Learning", "Computational Perception and Robotics"],
+            "grade": "W",
+            "url": "ml",
+            "course_url": "https://omscs.gatech.edu/cs-7641-machine-learning",
+            "omscentral_url": "https://omscentral.com/course/CS-7641",
+            "references": [{
+                "title": "Probabilistic Robotics",
+                "author": "Sebastian Thrun, Wolfram Burgard, Dieter Fox",
+                "url": "http://probabilistic-robotics.org/"
+            }]
+        }],
         "progress": "Future"
     },
     {
