@@ -44,10 +44,9 @@ summary: ""
 **Note:** Deadlines here are mostly 1 day prior to official deadlines
 
 # Recommended Prerequisites
-The course will use **Python 3** as the programming language. I will confirm if using libraries like `numpy` are allowed for the projects and problem sets. Basic understanding of **probability** will be expected.
+The course will use **Python 3** as the programming language. Libraries like `numpy` are allowed for the projects and problem sets. Basic understanding of **probability** will be expected.
 
 # Development Environment
-_[Section is under progress]_
 - VS Code [Extensions listed below]
     - Jupyter
     - Python (Pylance)
