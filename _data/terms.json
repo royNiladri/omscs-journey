@@ -98,7 +98,7 @@
             "id": "CS-7646",
             "title": "Machine Learning for Trading (ML4T)",
             "categories": ["Foundational Course", "Machine Learning"],
-            "grade": "",
+            "grade": "A",
             "url": "ml4t",
             "course_url": "https://omscs.gatech.edu/cs-7646-machine-learning-trading",
             "omscentral_url": "https://omscentral.com/course/CS-7646",
@@ -112,14 +112,27 @@
                 "url": "https://www.oreilly.com/library/view/python-for-finance/9781492024323/"
             }]
         }],
-        "progress": "current"
+        "progress": "completed"
     },
     {
         "year": "2022",
         "season": "Spring",
         "url": "spring-2022",
-        "papers": [{}],
-        "progress": "Future"
+        "papers": [{
+            "id": "CS-6601",
+            "title": "Artificial Intelligence (AI)",
+            "categories": ["Foundational Course", "Interactive Intelligence", "Computational Perception and Robotics"],
+            "grade": "",
+            "url": "ai",
+            "course_url": "https://omscs.gatech.edu/cs-6601-artificial-intelligence",
+            "omscentral_url": "https://omscentral.com/course/CS-6601",
+            "references": [{
+                "title": "Artificial Intelligence A Modern Approach (3rd Edition)",
+                "author": "Stuart Russell, Peter Norvig.",
+                "url": "http://aima.cs.berkeley.edu/"
+            }]
+        }],
+        "progress": "current"
     },
     {
         "year": "2022",
@@ -145,7 +158,27 @@
         "year": "2022",
         "season": "Fall",
         "url": "fall-2022",
-        "papers": [{}, {}],
+        "papers": [{
+            
+        }],
+        "progress": "Future"
+    },
+    {
+        "year": "2023",
+        "season": "Spring",
+        "url": "spring-2023",
+        "papers": [{
+            
+        }],
+        "progress": "Future"
+    },
+    {
+        "year": "2023",
+        "season": "Summer",
+        "url": "summer-2023",
+        "papers": [{
+            
+        }],
         "progress": "Future"
     }
 ]
