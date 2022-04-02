@@ -10,7 +10,7 @@ summary: ""
 {% assign term = site.data.terms | where_exp: "term", "page.url contains term.url" | first %}
 
 # Recommended Prerequisites
-This is one of those classes that assume very little of your background and gives you enough time and support to bootstrap. Some basic knowledge of Python and statistics will help, but you'll get enough time to ramn up during the first half of the course. Schedules, reading links and projects from perious term can be found on the [course website](http://lucylabs.gatech.edu/ml4t).
+This is one of those classes that assume very little of your background and gives you enough time and support to bootstrap. Some basic knowledge of Python and statistics will help, but you'll get enough time to ramp up during the first half of the course. Schedules, reading links and projects from previous term can be found on the [course website](http://lucylabs.gatech.edu/ml4t).
 
 # Development Environment
 - VS Code [Extensions listed below]
@@ -20,9 +20,9 @@ This is one of those classes that assume very little of your background and give
 
 I create Jupyter Notebooks for the class and problem sets for ease of working. If published to GitHub private repo (do not publish projects/problem set solutions to public repository as at violates Academic Policies), it is rendered as a formatted notebook. Read more about that at [GitHub Blog](https://github.blog/2015-05-07-github-jupyter-notebooks-3/) or [Jupyter Blog](https://blog.jupyter.org/rendering-notebooks-on-github-f7ac8736d686)
 
-**Important**: Many people run into issues of running on Windows mahine. I had used Kubuntu 20.04, and students in discussion forum have confirmed that they were able to complete the semester in M1 Mac. The class provides a VM that you can use, or use anaconda and isntall the dependencies they list out. Also note that for exam, honorlock is used and it will not run on Linux. You'll need a Windows or Mac machine for the exam.
+**Important**: Many people run into issues of running on Windows machine. I had used Kubuntu 20.04, and students in discussion forum have confirmed that they were able to complete the semester in M1 Mac. The class provides a VM that you can use, or use anaconda and install the dependencies they list out. Also note that for exam, Honorlock is used and it will not run on Linux. You'll need a Windows or Mac machine for the exam.
 # Projects
-There were a total of 8 projects in this class. In general the complexity increases with each projects, and in some cases, you'll need to write ~10 page reports. Most prjects have local testing scripts and have unlimited sumbission to Gradescope tetsing. Also note that some projects are cumulative. Do not skip one as you might need to use the code from that in multiple later projects. 
+There were a total of 8 projects in this class. In general the complexity increases with each projects, and in some cases, you'll need to write ~10 page reports. Most projects have local testing scripts and have unlimited submission to Gradescope testing. Also note that some projects are cumulative. Do not skip one as you might need to use the code from that in multiple later projects. 
 
 Some general things to keep in mind:
 - Start early
@@ -38,7 +38,7 @@ This project brings together everything we learned in the class. If you have fai
 There was an opportunity to earn 2% on extra credit, but I did not find the time to work on it.
 
 # Exams
-There are two exams - midterm, and final. Each of these contribute to 12.5% of total grade. It is a closed everything exam. No notes, no internet, no calculator. A full room scan is required, but mirrors are not needed during the exam. Ensure to read the Exam policy document of your semester for exact details. If you cover the topics and brush through the readings, it is fairly easy to score full marks. The final is not cumulative. Be sure to watch "The Big Short" - understand the terms, remember the characters!
+There are two exams - midterm, and final. Each of these contribute to 12.5% of total grade. It is a closed everything exam. No notes, no internet, no calculator. A full room scan is required, but mirrors are not needed during the exam. Ensure to read the Exam policy document of your semester for exact details. If you cover the topics and brush through the readings, it is fairly easy to score full marks. The final is not cumulative. Be sure to watch "[The Big Short](https://www.netflix.com/title/80075560)" - understand the terms, remember the characters!
 
 # Learning outcome and applications
-TBD
+It is a great course that makes you aware of way stock market works. There is a lot to learn and markets are influenced by factors not covered in the course, but it is a great starting point. Similarly it introduces concepts to analyse the risk and rewards of stocks, and making trading predictions. While, the concepts are preliminary and we are advised not to trade based on the lecture indicators, it helps me to get dabble in stocks a little more confidently now. From a personal standpoint, I mostly do investing, the class shows how with the right data trading can reap astounding benefits.
