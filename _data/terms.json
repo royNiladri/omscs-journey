@@ -128,7 +128,7 @@
             "omscentral_url": "https://omscentral.com/course/CS-6601",
             "references": [{
                 "title": "Artificial Intelligence A Modern Approach (3rd Edition)",
-                "author": "Stuart Russell, Peter Norvig.",
+                "author": "Stuart Russell, Peter Norvig",
                 "url": "http://aima.cs.berkeley.edu/"
             }]
         }],
@@ -138,6 +138,26 @@
         "year": "2022",
         "season": "Summer",
         "url": "summer-2022",
+        "papers": [{
+            "id": "CS-7632",
+            "title": "Game AI (GAI)",
+            "categories": ["Interactive Intelligence"],
+            "grade": "W",
+            "url": "gai",
+            "course_url": "https://omscs.gatech.edu/cs-7632-game-ai",
+            "omscentral_url": "https://omscentral.com/course/CS-7632",
+            "references": [{
+                "title": "Artificial Intelligence (AI) for Games 3rd Edition",
+                "author": "Ian Millington",
+                "url": "http://probabilistic-robotics.org/"
+            }]
+        }],
+        "progress": "Future"
+    },
+    {
+        "year": "2022",
+        "season": "Fall",
+        "url": "fall-2022",
         "papers": [{
             "id": "CS-7641",
             "title": "Machine Learning (ML)",
@@ -155,20 +175,11 @@
         "progress": "Future"
     },
     {
-        "year": "2022",
-        "season": "Fall",
-        "url": "fall-2022",
-        "papers": [{
-            
-        }],
-        "progress": "Future"
-    },
-    {
         "year": "2023",
         "season": "Spring",
         "url": "spring-2023",
         "papers": [{
-            
+
         }],
         "progress": "Future"
     },
@@ -177,7 +188,7 @@
         "season": "Summer",
         "url": "summer-2023",
         "papers": [{
-            
+
         }],
         "progress": "Future"
     }
