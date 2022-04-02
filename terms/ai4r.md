@@ -15,30 +15,108 @@ summary: ""
 
 <details>
     <summary>Click to expand/collapse</summary>
-
-| Week #     | Deadline    | Name                         |
-|:-----------| :---------: | :--------------------------- |
-| 1          | 23-May-2021 | 📚 Localization              |
-| 1          | 23-May-2021 | 📝 Problem Set 1             |
-| 2          | 30-May-2021 | 📚 Kalman Filters            |
-| 2          | 30-May-2021 | 📝 Problem Set 2             |
-| 2          | 30-May-2021 | 📚 Particle Filters          |
-| 2          | 30-May-2021 | 📚 Kinetic Bicycle Model 101 |
-| 2          | 30-May-2021 | 📝 Problem Set 3             |
-| 3          | 06-Jun-2021 | 💻 Kalman Filter Project     |
-| 4          | 13-Jun-2021 | 📚 Search                    |
-| 4          | 13-Jun-2021 | 📝 Problem Set 4             |
-| 4          | 13-Jun-2021 | 📚 PID Control               |
-| 4          | 13-Jun-2021 | 📝 Problem Set 5             |
-| 5          | 20-Jun-2021 | 💻 Particle Filter Project   |
-| 6          | 27-Jun-2021 | 📚 SLAM                      |
-| 6          | 27-Jun-2021 | 📝 Problem Set 6             |
-| 7          | 02-Jul-2021 | 💻 PID Mini-Project          |
-| 8          | 11-Jul-2021 | 💻 Search Project            |
-| 10         | 25-Jul-2021 | 💻 SLAM Project              |
-| 11         | 31-Jul-2021 | ✒ Final                      |
-
- 
+<table>
+    <tr>
+        <td>Week #</td>
+        <td>Deadline</td>
+        <td>Name</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>23-May-2021</td>
+        <td>📚 Localization</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>23-May-2021</td>
+        <td>📝 Problem Set 1</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>30-May-2021</td>
+        <td>📚 Kalman Filters</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>30-May-2021</td>
+        <td>📝 Problem Set 2</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>30-May-2021</td>
+        <td>📚 Particle Filters</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>30-May-2021</td>
+        <td>📚 Kinetic Bicycle Model 101</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>30-May-2021</td>
+        <td>📝 Problem Set 3</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>06-Jun-2021</td>
+        <td>💻 Kalman Filter Project</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>13-Jun-2021</td>
+        <td>📚 Search</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>13-Jun-2021</td>
+        <td>📝 Problem Set 4</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>13-Jun-2021</td>
+        <td>📚 PID Control</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>13-Jun-2021</td>
+        <td>📝 Problem Set 5</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>20-Jun-2021</td>
+        <td>💻 Particle Filter Project</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>27-Jun-2021</td>
+        <td>📚 SLAM</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>27-Jun-2021</td>
+        <td>📝 Problem Set 6</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>02-Jul-2021</td>
+        <td>💻 PID Mini-Project</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>11-Jul-2021</td>
+        <td>💻 Search Project</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>25-Jul-2021</td>
+        <td>💻 SLAM Project</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>31-Jul-2021</td>
+        <td>✒ Final</td>
+    </tr>
+</table> 
 </details>
 
 **Note:** Deadlines here are mostly 1 day prior to official deadlines
