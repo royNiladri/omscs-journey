@@ -38,10 +38,10 @@ plugins:
   - jekyll-sitemap
   - jemoji
 
-markdown: CommonMarkGhPages
-commonmark:
-  options: ["SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "autolink", "table"]
+markdown: kramdown
+# commonmark:
+#   options: ["SMART", "FOOTNOTES"]
+#   extensions: ["strikethrough", "autolink", "table"]
 
 permalink: pretty
 # Exclude from processing.
