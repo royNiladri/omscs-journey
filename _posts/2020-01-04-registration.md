@@ -28,6 +28,6 @@ Please note Flywire usually takes 7-8 working days to complete the transaction f
 | Summer 2020 | HCI           | Flywire      |       841.00 |       64,735.00 |
 | Fall 2020   | HPCA          | Flywire      |       841.00 |       64,276.00 |
 | Summer 2021 | AI4R          | Flywire      |       841.00 |       64,228.00 |
-| Fall 2021   | ML, ML4T      | Flywire      |     1,381.00 |     1,04,607.00 |
+| Fall 2021   | ~ML~, ML4T    | Flywire      |     1,381.00 |     1,04,607.00 |
 | Spring 2022 | AI            | Flywire      |       841.00 |       64,769.00 |
 | **Total**   |               |              | **5,586.00** | **4,26,065.08** |
