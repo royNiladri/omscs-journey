@@ -132,7 +132,7 @@
                 "url": "http://aima.cs.berkeley.edu/"
             }]
         }],
-        "progress": "current"
+        "progress": "completed"
     },
     {
         "year": "2022",
@@ -142,7 +142,7 @@
             "id": "CS-7632",
             "title": "Game AI (GAI)",
             "categories": ["Interactive Intelligence"],
-            "grade": "W",
+            "grade": "",
             "url": "gai",
             "course_url": "https://omscs.gatech.edu/cs-7632-game-ai",
             "omscentral_url": "https://omscentral.com/course/CS-7632",
@@ -152,7 +152,7 @@
                 "url": "http://probabilistic-robotics.org/"
             }]
         }],
-        "progress": "Future"
+        "progress": "current"
     },
     {
         "year": "2022",
