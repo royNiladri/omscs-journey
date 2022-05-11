@@ -43,14 +43,19 @@ This is a relatively easier assignment. I might be prejudiced as I had written d
 This is easy and frustrating at the same time! You'll have to go through the readings to understand the concepts, and you can theoretically run for loops wherever you see a sigma notation, but it will timeout in Gradescope. You'll need to vectorize the implementations and that will take time based on your prior knowledge with matrix and Python vectorization skills.
 
 ## 06 HMM
-TBD
+I skipped this project as there was best of 5. It was based on `Pattern Recognition through time`. For the most part, it appeared to be much easier than the other assignments.
 
 # Exams
 The exams are take-home, open note, open book. You cannot access internet. It is not proctored and you can work on it at your convenience.
+
 ## Midterm 
 It was a ~25 page question paper covering all the topics covered so far. Partial credits are offered wherever it made sense. If you came up with an answer and feel it is right, raise a regrade request clearly stating your reasons, and you might get some points based on the soundness of your logic.
 
 ## Finals
-TBD
+The finals felt tougher than the midterm. If you want to score better, go through the assigned readings and internalize the concepts (I guide others to a treasure I cannot possess). The paper was around 50 pages long, and had a lot of interesting back stories to the problem. But it was not as well managed as you would like. There were multiple iterations of clarifications, some questiond changed multiple times.
+
+# Extra Credit and Grading
+There are multiple EC opportunities spread across projects and additional tasks like Meta lectures and surveys. It is higly recommended to hoard as much as extra credit as possible as the exams will likely bring your grades down.
 
 # Learning outcome and application
+TBD
