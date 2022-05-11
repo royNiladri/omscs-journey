@@ -122,7 +122,7 @@
             "id": "CS-6601",
             "title": "Artificial Intelligence (AI)",
             "categories": ["Foundational Course", "Interactive Intelligence", "Computational Perception and Robotics"],
-            "grade": "",
+            "grade": "A",
             "url": "ai",
             "course_url": "https://omscs.gatech.edu/cs-6601-artificial-intelligence",
             "omscentral_url": "https://omscentral.com/course/CS-6601",
