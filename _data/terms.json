@@ -9,7 +9,7 @@
             "grade": "A",
             "url": "gios",
             "course_url": "https://www.omscs.gatech.edu/cs-6200-introduction-operating-systems",
-            "omscentral_url": "https://omscentral.com/course/CS-6200",
+            "omscentral_url": "https://omscentral.com/courses/CS-6200/reviews",
             "references": [{
                 "title": "Operating System Three Easy Pieces (OSTEP)",
                 "author": "Andrea C. Arpaci-Dusseau and Remzi H. Arpaci-Dusseau",
@@ -37,7 +37,7 @@
             "grade": "A",
             "url": "hci",
             "course_url": "http://www.omscs.gatech.edu/cs-6750-human-computer-interaction",
-            "omscentral_url": "https://omscentral.com/course/CS-6750",
+            "omscentral_url": "https://omscentral.com/courses/CS-6750/reviews",
             "references": [{
                 "title": "The Design of Everyday Things",
                 "author": "Don Norman",
@@ -57,7 +57,7 @@
             "grade": "A",
             "url": "hpca",
             "course_url": "https://omscs.gatech.edu/cs-6290-high-performance-computer-architecture",
-            "omscentral_url": "https://omscentral.com/course/CS-6290",
+            "omscentral_url": "https://omscentral.com/courses/CS-6290/reviews",
             "references": [{
                 "title": "C++ Library Source Code",
                 "author": "",
@@ -81,7 +81,7 @@
             "grade": "A",
             "url": "ai4r",
             "course_url": "https://omscs.gatech.edu/cs-7638-artificial-intelligence-robotics",
-            "omscentral_url": "https://omscentral.com/course/CS-7638",
+            "omscentral_url": "https://omscentral.com/courses/CS-7638/reviews",
             "references": [{
                 "title": "Probabilistic Robotics",
                 "author": "Sebastian Thrun, Wolfram Burgard, Dieter Fox",
@@ -101,7 +101,7 @@
             "grade": "A",
             "url": "ml4t",
             "course_url": "https://omscs.gatech.edu/cs-7646-machine-learning-trading",
-            "omscentral_url": "https://omscentral.com/course/CS-7646",
+            "omscentral_url": "https://omscentral.com/courses/CS-7646/reviews",
             "references": [{
                 "title": "What Hedge Funds Really Do",
                 "author": "Philip J. Romero, Tucker Balch",
@@ -125,7 +125,7 @@
             "grade": "A",
             "url": "ai",
             "course_url": "https://omscs.gatech.edu/cs-6601-artificial-intelligence",
-            "omscentral_url": "https://omscentral.com/course/CS-6601",
+            "omscentral_url": "https://omscentral.com/courses/CS-6601/reviews",
             "references": [{
                 "title": "Artificial Intelligence A Modern Approach (4th Edition)",
                 "author": "Stuart Russell, Peter Norvig",
@@ -142,17 +142,17 @@
             "id": "CS-7632",
             "title": "Game AI (GAI)",
             "categories": ["Interactive Intelligence"],
-            "grade": "",
+            "grade": "A",
             "url": "gai",
             "course_url": "https://omscs.gatech.edu/cs-7632-game-ai",
-            "omscentral_url": "https://omscentral.com/course/CS-7632",
+            "omscentral_url": "https://omscentral.com/courses/CS-7632/reviews",
             "references": [{
                 "title": "Artificial Intelligence (AI) for Games 3rd Edition",
                 "author": "Ian Millington",
                 "url": "http://probabilistic-robotics.org/"
             }]
         }],
-        "progress": "current"
+        "progress": "completed"
     },
     {
         "year": "2022",
@@ -162,33 +162,44 @@
             "id": "CS-7641",
             "title": "Machine Learning (ML)",
             "categories": ["Foundational Course", "Interactive Intelligence", "Machine Learning", "Computational Perception and Robotics"],
-            "grade": "W",
+            "grade": "",
             "url": "ml",
             "course_url": "https://omscs.gatech.edu/cs-7641-machine-learning",
-            "omscentral_url": "https://omscentral.com/course/CS-7641",
+            "omscentral_url": "https://omscentral.com/courses/CS-7641/reviews",
+            "references": [{
+                "title": "Machine Learning",
+                "author": "Tom M. Mitchell",
+                "url": "https://www.cs.cmu.edu/~tom/mlbook.html"
+            }]
+        }, {
+            "id": "MGT-6311",
+            "title": "Digital Marketing (DM)",
+            "categories": [],
+            "grade": "",
+            "url": "dm",
+            "course_url": "https://omscs.gatech.edu/mgt-6311-digital-marketing",
+            "omscentral_url": "https://omscentral.com/courses/MGT-6311/reviews",
             "references": [{
                 "title": "Probabilistic Robotics",
                 "author": "Sebastian Thrun, Wolfram Burgard, Dieter Fox",
                 "url": "http://probabilistic-robotics.org/"
             }]
         }],
-        "progress": "Future"
+        "progress": "current"
     },
     {
         "year": "2023",
         "season": "Spring",
         "url": "spring-2023",
         "papers": [{
-
-        }],
-        "progress": "Future"
-    },
-    {
-        "year": "2023",
-        "season": "Summer",
-        "url": "summer-2023",
-        "papers": [{
-
+            "id": "CS-6300",
+            "title": "Software Development Process (SDP)",
+            "categories": ["Foundational Course", "Computing Systems", "Interactive Intelligence"],
+            "grade": "",
+            "url": "sdp",
+            "course_url": "https://omscs.gatech.edu/cs-6300-software-development-process",
+            "omscentral_url": "https://omscentral.com/courses/CS-6300/reviews",
+            "references": []
         }],
         "progress": "Future"
     }
