@@ -162,8 +162,7 @@ Again, the hard part is tuning. While you can write some harness to find out par
 ## [04 Warehouse](#warehouse)
 This project is based on Search module. A robot in a warehouse is tasked with picking up boxes and delivering them to the destination. The first part can be solved using A*. In the second part, the robot can start at any point, and needs to deliver a box. The grids have different weights, mimicking rough terrain. DP is well suited for this. The last part introduces stochasticity, and the robot often fails to execute given commands. Part C is significantly more challenging, and accounts for 15% of the project grade.
 
-{% include youtube.html id="RFxm9fSE77Q" %} <!--TODO: Add video -->
-
+{% include youtube.html id="RFxm9fSE77Q" %}
 ### Tips
 Read the documentations as many times as needed. There are a lot of details in there. Go through how the code is wired up. Follow Piazza, and start engaging is discussions early. As of Summer 2021, the Problem Set solution was a bit flawed, and you need to modify that code to score full points. Cost calculations are not trivial, so join the office hours, or go through the recoding. Without those I don not think I could get full score. Note that parts A and B offer extra credit, and perfecting them might give you a little boost if you are missing a few test cases in part C.
 

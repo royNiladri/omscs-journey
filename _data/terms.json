@@ -150,6 +150,10 @@
                 "title": "Artificial Intelligence (AI) for Games 3rd Edition",
                 "author": "Ian Millington",
                 "url": "http://probabilistic-robotics.org/"
+            }, {
+                "title": "Artificial Intelligence A Modern Approach (4th Edition)",
+                "author": "Stuart Russell, Peter Norvig",
+                "url": "http://aima.cs.berkeley.edu/"
             }]
         }],
         "progress": "completed"
@@ -162,7 +166,7 @@
             "id": "CS-7641",
             "title": "Machine Learning (ML)",
             "categories": ["Foundational Course", "Interactive Intelligence", "Machine Learning", "Computational Perception and Robotics"],
-            "grade": "",
+            "grade": "A",
             "url": "ml",
             "course_url": "https://omscs.gatech.edu/cs-7641-machine-learning",
             "omscentral_url": "https://omscentral.com/courses/CS-7641/reviews",
@@ -170,22 +174,30 @@
                 "title": "Machine Learning",
                 "author": "Tom M. Mitchell",
                 "url": "https://www.cs.cmu.edu/~tom/mlbook.html"
+            }, {
+                "title": "Artificial Intelligence A Modern Approach (4th Edition)",
+                "author": "Stuart Russell, Peter Norvig",
+                "url": "http://aima.cs.berkeley.edu/"
+            }, {
+                "title": "Hands on Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+                "author": "Aurélien Géron",
+                "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/"
             }]
         }, {
             "id": "MGT-6311",
             "title": "Digital Marketing (DM)",
-            "categories": [],
-            "grade": "",
+            "categories": ["NA"],
+            "grade": "A",
             "url": "dm",
             "course_url": "https://omscs.gatech.edu/mgt-6311-digital-marketing",
             "omscentral_url": "https://omscentral.com/courses/MGT-6311/reviews",
             "references": [{
-                "title": "Probabilistic Robotics",
-                "author": "Sebastian Thrun, Wolfram Burgard, Dieter Fox",
-                "url": "http://probabilistic-robotics.org/"
+                "title": "eMarketing - The Essential Guide to Marketing in a Digital World",
+                "author": "Rob Stokes, Red & Yellow Creative",
+                "url": "https://static.us.edusercontent.com/files/BpAkUPnybdUuMaqPMafa7PWM"
             }]
         }],
-        "progress": "current"
+        "progress": "completed"
     },
     {
         "year": "2023",
@@ -201,6 +213,6 @@
             "omscentral_url": "https://omscentral.com/courses/CS-6300/reviews",
             "references": []
         }],
-        "progress": "Future"
+        "progress": "current"
     }
 ]
