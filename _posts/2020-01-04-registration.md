@@ -32,5 +32,5 @@ Please note Flywire usually takes 7-8 working days to complete the transaction f
 | Spring 2022 | AI                 | Flywire      |       841.00 |      64,769.00 |
 | Summer 2022 | GAI, ODM (Seminar) | Flywire      |     1,021.00 |      79,668.00 |
 | Fall 2022   | ML, DM             | Flywire      |     1,187.00 |      96,641.00 |
-| Spring 2023 | SDP                | Flywire      |       647.00 |                |
-| **Total**   |                    |              | **8,441.00** | **602,374.08** |
+| Spring 2023 | SDP                | Flywire      |       647.00 |      55,141.00 |
+| **Total**   |                    |              | **8,441.00** |**6,57,515.08** |
