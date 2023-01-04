@@ -30,7 +30,7 @@ The first set of projects involve space discretization and path planning. You wi
 
 ## Prison Dodgeball
 The fun part of the class begins! You are in charge of adding intelligence to a bunch of rowdy minions battling in prison dodgeball (the rules of the game are involved, so read them thoroughly). This covers planning projectiles to moving targets and state machines. You can start with just the projection part and get really good at it before moving on to game planning. There is a tournament across students, so if you have time, try to go beyond defeating the AI minions. The winner of the tournament apart from the championship title, gets extra credit.
-<!-- TODO: Add video of minions! -->
+{% include youtube.html id="BeS5Pf7efiw" %}
 
 ## AI Racetrack
 4 wheel drive is fun on a procedurally generated track in the middle of open space! Your task is to drive a race ~~car~~ truck through the track without going over the edge, or toppling (just 4WD thing!). While the goal is to get an average of over 45km/h over 5 minutes, I achieved around 60 km/hr. Some people have gone as high as 65. So once you have figured out a way to stay on track, fiddle with the safety margin and steering lines to try to go faster. There is some extra credit for being fast and dangerous! Here is a clip of my run midway between optimizations.
