@@ -207,12 +207,20 @@
             "id": "CS-6300",
             "title": "Software Development Process (SDP)",
             "categories": ["Foundational Course", "Computing Systems", "Interactive Intelligence"],
-            "grade": "",
+            "grade": "A",
             "url": "sdp",
             "course_url": "https://omscs.gatech.edu/cs-6300-software-development-process",
             "omscentral_url": "https://omscentral.com/courses/CS-6300/reviews",
-            "references": []
+            "references": [{
+                "title": "No Silver Bullet — Essence and Accident in Software Engineering",
+                "author": "Frederick P. Brooks, Jr.",
+                "url": "https://drive.google.com/file/d/0B6urvdQprh5NWlZKWFJaM3R3M2M/view?resourcekey=0-W8SE8vQU1fskg8jlB7VUnQ"
+            },{
+                "title": "The Cathedral and the Bazaar",
+                "author": "Eric Steven Raymond",
+                "url": "https://drive.google.com/file/d/0B6urvdQprh5NUzZVNFBydGRuWUU/view?resourcekey=0-pvYCcw-s8ZjhHwCLSCuqdA"
+            }]
         }],
-        "progress": "current"
+        "progress": "completed"
     }
 ]
